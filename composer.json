@@ -1,0 +1,22 @@
+{
+    "name": "salsa/test",
+    "description": "Salsa test.",
+    "type": "project",
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "config.php"
+        ],
+        "psr-4": {
+            "Core\\": "core/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Carlos Aguilera",
+            "email": "a.carlosing@gmail.com"
+        }
+    ]
+}
